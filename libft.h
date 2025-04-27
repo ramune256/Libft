@@ -1,21 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/26 15:13:35 by shunwata          #+#    #+#             */
-/*   Updated: 2025/04/27 16:10:20 by shunwata         ###   ########.fr       */
+/*   Created: 2025/04/27 15:47:19 by shunwata          #+#    #+#             */
+/*   Updated: 2025/04/27 15:48:56 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#ifndef LIBFT_H
+# define LIBFT_H
 
-int	ft_isdigit(int c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
-}
+# include <stdlib.h>
+# include <unistd.h>
+# include <string.h>
+
+#endif
