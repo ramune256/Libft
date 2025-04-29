@@ -6,7 +6,7 @@
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 19:45:28 by shunwata          #+#    #+#             */
-/*   Updated: 2025/04/29 17:28:47 by shunwata         ###   ########.fr       */
+/*   Updated: 2025/04/29 17:55:43 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,29 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[dst_len + i] = '\0';
 	return (dst_len + src_len);
 }
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char	dst1[20] = "Hello";
+// 	char	dst2[20] = "Hello";
+// 	char	src[] = " World!";
+// 	size_t	result1;
+// 	size_t	result2;
+
+// 	printf("Before:\n");
+// 	printf("dst1(ft): %s\n", dst1);
+// 	printf("dst2(original): %s\n", dst2);
+// 	printf("src: %s\n", src);
+
+// 	result1 = ft_strlcat(dst1, src, 20);
+// 	result2 = strlcat(dst2, src, 20);
+
+// 	printf("\nAfter:\n");
+// 	printf("dst1(ft): %s\n", dst1);
+// 	printf("dst2(original): %s\n", dst2);
+// 	printf("Return value(ft): %zu\n", result1);
+// 	printf("Return value(original): %zu\n", result2);
+
+// 	return (0);
+// }

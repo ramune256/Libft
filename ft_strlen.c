@@ -6,13 +6,13 @@
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 15:40:10 by shunwata          #+#    #+#             */
-/*   Updated: 2025/04/27 16:06:08 by shunwata         ###   ########.fr       */
+/*   Updated: 2025/04/29 17:38:00 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlen(const char *s)
+size_t  ft_strlen(const char *s)
 {
     size_t len;
 
