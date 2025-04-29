@@ -6,7 +6,7 @@
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 19:45:28 by shunwata          #+#    #+#             */
-/*   Updated: 2025/04/29 17:55:43 by shunwata         ###   ########.fr       */
+/*   Updated: 2025/04/29 17:58:13 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,8 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 
 // int	main(void)
 // {
-// 	char	dst1[20] = "Hello";
-// 	char	dst2[20] = "Hello";
+// 	char	dst1[20] = "";
+// 	char	dst2[20] = "";
 // 	char	src[] = " World!";
 // 	size_t	result1;
 // 	size_t	result2;
@@ -46,8 +46,8 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 // 	printf("dst2(original): %s\n", dst2);
 // 	printf("src: %s\n", src);
 
-// 	result1 = ft_strlcat(dst1, src, 20);
-// 	result2 = strlcat(dst2, src, 20);
+// 	result1 = ft_strlcat(dst1, src, 0);
+// 	result2 = strlcat(dst2, src, 0);
 
 // 	printf("\nAfter:\n");
 // 	printf("dst1(ft): %s\n", dst1);
