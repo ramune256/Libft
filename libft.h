@@ -6,16 +6,17 @@
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 15:47:19 by shunwata          #+#    #+#             */
-/*   Updated: 2025/04/30 16:20:17 by shunwata         ###   ########.fr       */
+/*   Updated: 2025/05/01 16:38:35 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdlib.h>
-# include <unistd.h>
-# include <string.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdint.h>
 
 /* 文字列操作関数 */
 size_t	ft_strlen(const char *s);
