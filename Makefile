@@ -6,7 +6,7 @@
 #    By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/30 16:13:12 by shunwata          #+#    #+#              #
-#    Updated: 2025/04/30 16:16:12 by shunwata         ###   ########.fr        #
+#    Updated: 2025/05/01 16:55:01 by shunwata         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ CFLAGS = -Wall -Wextra -Werror
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar rcs $(NAME) $(OBJS)
+	ar cs $(NAME) $(OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
