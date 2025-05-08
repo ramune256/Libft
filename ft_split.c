@@ -6,7 +6,7 @@
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 15:50:26 by shunwata          #+#    #+#             */
-/*   Updated: 2025/05/04 17:51:31 by shunwata         ###   ########.fr       */
+/*   Updated: 2025/05/08 20:16:25 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ static char	*get_word(char const *s, char c, size_t *i)
 	return (word);
 }
 
-static char	**fill_result(char const *s, char c, char **result, size_t word_count)
+static char	**fill(char const *s, char c, char **result, size_t word_count)
 {
 	size_t	i;
 	size_t	j;
@@ -85,5 +85,5 @@ char	**ft_split(char const *s, char c)
 	result = (char **)malloc(sizeof(char *) * (word_count + 1));
 	if (!result)
 		return (NULL);
-	return (fill_result(s, c, result, word_count));
+	return (fill(s, c, result, word_count));
 }

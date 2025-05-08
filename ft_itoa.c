@@ -6,7 +6,7 @@
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 19:21:09 by shunwata          #+#    #+#             */
-/*   Updated: 2025/05/04 19:50:45 by shunwata         ###   ########.fr       */
+/*   Updated: 2025/05/08 20:17:15 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static size_t	get_n_len(int n)
 {
-	size_t	len;
+	size_t		len;
 	long long	nl;
 
 	if (n == 0)

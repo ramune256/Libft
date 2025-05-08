@@ -5,19 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/27 15:40:10 by shunwata          #+#    #+#             */
-/*   Updated: 2025/04/29 17:38:00 by shunwata         ###   ########.fr       */
+/*   Created: 2025/05/08 20:25:03 by shunwata          #+#    #+#             */
+/*   Updated: 2025/05/08 20:27:07 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t  ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-    size_t len;
+	size_t	len;
 
-    len = 0;
-    while (s[len] != '\0')
-        len++;
-    return (len);
+	len = 0;
+	while (s[len] != '\0')
+		len++;
+	return (len);
 }
