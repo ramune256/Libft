@@ -6,7 +6,7 @@
 /*   By: shunwata <shunwata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 15:47:19 by shunwata          #+#    #+#             */
-/*   Updated: 2025/05/08 20:38:12 by shunwata         ###   ########.fr       */
+/*   Updated: 2025/05/09 00:21:08 by shunwata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdint.h>
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
